@@ -1,0 +1,51 @@
+*{
+ padding: 0;  
+ margin: 0;
+ box-sizing: border-box; 
+}
+.header-area{
+    background-image: url('images.jpg');
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+
+}
+.header-area img{
+    border-radius: 120px;
+}
+.login-box{
+    background-color:rgba(255, 0, 0, 0.5);
+    width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-box .fa-id-card{
+    font-size: 50px;
+    color: tomato;
+}
+form {
+    
+}
+form input{
+    width: 350px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+}
+form input[type="text"]{
+    padding:10px;
+    margin-bottom: 15px;
+}
+form input[type="password"]{
+    padding:10px;
+    margin-bottom: 15px;
+}
+form input[type="submit"]{
+    padding:10px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 174, 255, 0.5);
+
+}
+
